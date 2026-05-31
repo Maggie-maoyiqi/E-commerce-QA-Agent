@@ -1,0 +1,34 @@
+2026-05-31 23:29:30.0223 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-05-31 23:29:39.0794 - INFO - graphrag_llm.metrics.log_metrics_writer - Metrics for openai/BAAI/bge-m3: {
+  "attempted_request_count": 1,
+  "successful_response_count": 1,
+  "failed_response_count": 0,
+  "failure_rate": 0.0,
+  "requests_with_retries": 0,
+  "retries": 0,
+  "retry_rate": 0.0,
+  "compute_duration_seconds": 2.0301313400268555,
+  "compute_duration_per_response_seconds": 2.0301313400268555,
+  "cache_hit_rate": 0.0,
+  "streaming_responses": 0,
+  "responses_with_tokens": 1,
+  "prompt_tokens": 11,
+  "total_tokens": 11,
+  "tokens_per_response": 11.0,
+  "cost_per_response": 0.0
+}
+2026-05-31 23:29:39.0794 - INFO - graphrag_llm.metrics.log_metrics_writer - Metrics for openai/deepseek-chat: {
+  "attempted_request_count": 1,
+  "successful_response_count": 1,
+  "failed_response_count": 0,
+  "failure_rate": 0.0,
+  "requests_with_retries": 0,
+  "retries": 0,
+  "retry_rate": 0.0,
+  "compute_duration_seconds": 0,
+  "compute_duration_per_response_seconds": 0.0,
+  "cache_hit_rate": 0.0,
+  "streaming_responses": 1,
+  "tokens_per_response": 0.0,
+  "cost_per_response": 0.0
+}
